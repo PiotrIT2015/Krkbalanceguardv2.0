@@ -1,4 +1,4 @@
-## BalanceGuard(system for entertainment in free time, version 1.0)
+## BalanceGuard(system for entertainment in free time, version 2.0)
 
 ## Table of contents
 * [General info](#general-info)

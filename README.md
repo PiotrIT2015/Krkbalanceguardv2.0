@@ -50,8 +50,12 @@ To run this project(inside greenroomos container):
 
 ```
 $ cd ../io.balanceguard/services/<certain-cervice>
-$ gradle build
-$ gradle run
+$ mvn install
+$ mvn clean install
+$ mvn test
+$ mvn install
+$ mvn clean
+$ mvn clean install
 ```
 
 * run Cellular Automata(GUI's module) in IntelliJ IDEA

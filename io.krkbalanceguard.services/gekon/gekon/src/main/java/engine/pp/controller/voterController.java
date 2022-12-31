@@ -1,11 +1,7 @@
-package engine.pp.gekon.controller;
+package engine.pp.controller;
 
-import java.util.List;
-
-import engine.pp.gekon.dao.VoteDao;
-import engine.pp.gekon.model.Vote;
+import engine.pp.dao.VoteDao;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestBody;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;

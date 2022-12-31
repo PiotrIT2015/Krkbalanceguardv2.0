@@ -1,4 +1,4 @@
-package engine.pp.gekon.services;
+package engine.pp.services;
 
 import jakarta.annotation.PostConstruct;
 import org.springframework.stereotype.Component;

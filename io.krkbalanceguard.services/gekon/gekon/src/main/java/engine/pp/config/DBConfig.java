@@ -1,4 +1,4 @@
-package engine.pp.gekon.config;
+package engine.pp.config;
 
 import javax.sql.DataSource;
 

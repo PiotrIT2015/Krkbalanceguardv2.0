@@ -1,4 +1,4 @@
-package engine.pp.gekon.model;
+package engine.pp.model;
 
 import java.util.Date;
 

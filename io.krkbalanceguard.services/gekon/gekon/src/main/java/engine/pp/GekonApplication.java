@@ -1,6 +1,6 @@
-package engine.pp.gekon;
+package engine.pp;
 
-import engine.pp.gekon.services.windowService;
+import engine.pp.services.windowService;
 
 import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
 import org.springframework.context.annotation.ComponentScan;

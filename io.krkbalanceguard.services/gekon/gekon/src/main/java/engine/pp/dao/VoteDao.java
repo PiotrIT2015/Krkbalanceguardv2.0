@@ -1,8 +1,8 @@
-package engine.pp.gekon.dao;
+package engine.pp.dao;
 
-import java.util.List;
+import engine.pp.services.windowService;
 import org.springframework.context.annotation.Bean;
-import java.awt.event.ActionEvent;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -10,8 +10,6 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-import engine.pp.gekon.services.windowService;
-import engine.pp.gekon.model.Vote;
 import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.springframework.beans.factory.annotation.Autowired;

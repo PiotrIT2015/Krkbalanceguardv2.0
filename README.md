@@ -13,8 +13,7 @@ use with "HealthMonitor" and "Reminder". These are another project which I creat
 ## Technologies
 Project is created with:
 * python version: 3.7
-* Java version: 11.0.7
-* mysql-connector-java library version: 5.1.35
+* Java version: 17.0.5
 	
 ## Setup
 To setup this project on Windows you must first install a Docker for Windows.

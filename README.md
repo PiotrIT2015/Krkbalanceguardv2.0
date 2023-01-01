@@ -12,7 +12,7 @@ use with "HealthMonitor" and "Reminder". These are another project which I creat
 	
 ## Technologies
 Project is created with:
-* python version: 3.7
+* python version: 3.10
 * Java version: 17.0.5
 	
 ## Setup

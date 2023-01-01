@@ -10,7 +10,7 @@ import java.awt.EventQueue;
 
 @Controller
 @EnableAutoConfiguration
-@ComponentScan({"engine.pp.gekon.services"})
+@ComponentScan({"engine.pp.services"})
 public class GekonApplication {
 
 	public static void main(String[] args) {

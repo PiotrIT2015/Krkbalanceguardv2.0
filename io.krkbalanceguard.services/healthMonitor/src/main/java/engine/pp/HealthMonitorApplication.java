@@ -1,13 +1,26 @@
 package engine.pp;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import engine.pp.services.windowService;
 
-@SpringBootApplication
+import org.springframework.boot.autoconfigure.EnableAutoConfiguration;
+import org.springframework.context.annotation.ComponentScan;
+import org.springframework.stereotype.Controller;
+import org.springframework.boot.builder.SpringApplicationBuilder;
+import java.awt.EventQueue;
+
+@Controller
+@EnableAutoConfiguration
+@ComponentScan({"engine.pp.services"})
 public class HealthMonitorApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(HealthMonitorApplication.class, args);
+
+		var ctx = new SpringApplicationBuilder(HealthMonitorApplication.class)
+				.headless(false).run(args);
+		EventQueue.invokeLater(() -> {
+			var ex = ctx.getBean(windowService.class);
+			//ex.setVisible(true);
+		});
 	}
 
 }

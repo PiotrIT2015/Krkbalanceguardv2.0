@@ -6,7 +6,7 @@ from os import listdir
 
 def create_gallery():
     # Use a breakpoint in the code line below to debug your script.
-    p=open('galeria.html','w',encoding='utf-8')
+    p=open('galery.html','w',encoding='utf-8')
     p.write('<!doctype html><html><meta charset="utf-8">')
     p.write('''
   <meta name="viewport" content="width=device-width, initial-scale=1">

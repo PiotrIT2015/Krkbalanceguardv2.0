@@ -23,12 +23,12 @@ This can be do it by visit this website: https://hub.docker.com/editions/communi
 ...,then install it locally using Docker(using following commands):
 
 ```
-$ docker pull piotrit2015/greenroomos
-$ docker container run -i -t --name GuardOS piotrit2015/greenroomos
+$ docker pull piotrit2015/guardos
+$ docker container run -i -t --name GuardOS piotrit2015/guardos
 $ cd home
 $ mkdir <username>
 $ cd <username>
-$ git clone https://github.com/PiotrIT2015/krkbalanceguard.git
+$ git clone https://github.com/PiotrIT2015/krkbalanceguardv2.0.git
 $ cd ./balanceguard
 $ systemctl start docker
 $ systemctl enable docker

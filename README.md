@@ -29,6 +29,7 @@ $ cd home
 $ mkdir <username>
 $ cd <username>
 $ git clone https://github.com/PiotrIT2015/krkbalanceguardv2.0.git
+$ cd ./krkbalanceguardv2.0
 $ systemctl start docker
 $ systemctl enable docker
 $ docker-compose up

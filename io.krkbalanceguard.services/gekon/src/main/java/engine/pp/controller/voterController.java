@@ -16,6 +16,7 @@ public class voterController {
     @RequestMapping("/saveVote")
     public String save(@RequestBody String vote){
         dao.saveVote(vote);
+        dao.getItem();
         return "success";
     }
 /*

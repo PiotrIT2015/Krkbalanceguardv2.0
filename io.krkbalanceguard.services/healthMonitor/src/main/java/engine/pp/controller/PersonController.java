@@ -16,6 +16,7 @@ public class PersonController {
     @RequestMapping("/saveSound")
     public String save(@RequestBody String tracklist){
         dao.saveSound(tracklist);
+        dao.getName();
         return "success";
     }
 /*

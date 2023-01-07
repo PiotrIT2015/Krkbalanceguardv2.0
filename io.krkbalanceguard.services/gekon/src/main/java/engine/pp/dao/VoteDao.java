@@ -61,7 +61,7 @@ public class VoteDao {
     }
 
     @Bean
-    public String getItem(){
+    public void getItem(){
         String csvFile = "./data/resolution-list.csv";
         BufferedReader br = null;
         String line = "";
@@ -102,7 +102,6 @@ public class VoteDao {
 
         saveVote(item);
 
-        return item;
     }
 
 

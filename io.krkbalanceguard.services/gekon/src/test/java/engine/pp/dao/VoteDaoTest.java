@@ -27,4 +27,5 @@ class VoteDaoTest {
         assertEquals("resolution1",votedao.getItem());
     }
      */
+    
 }

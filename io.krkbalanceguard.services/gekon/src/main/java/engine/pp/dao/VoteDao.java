@@ -22,7 +22,23 @@ public class VoteDao {
 
     windowService window=new windowService();
     private static final String FILE_SEPARATOR = "/";
-    String item, path, nameoffile;
+    String item, path;
+
+    public VoteDao() {
+
+    }
+
+    public void setItem(String item) {
+        this.item = item;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
 
     @Autowired
     private SessionFactory factory;
@@ -45,7 +61,7 @@ public class VoteDao {
     }
 
     @Bean
-    public void getItem(){
+    public String getItem(){
         String csvFile = "./data/resolution-list.csv";
         BufferedReader br = null;
         String line = "";
@@ -85,13 +101,9 @@ public class VoteDao {
         }
 
         saveVote(item);
+
+        return item;
     }
 
-    public String getPath() {
-        return path;
-    }
 
-    public String getNameOfFile() {
-        return nameoffile;
-    }
 }

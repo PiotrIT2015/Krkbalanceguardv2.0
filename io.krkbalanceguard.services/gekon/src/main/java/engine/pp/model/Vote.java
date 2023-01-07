@@ -15,6 +15,7 @@ import lombok.Setter;
 @Setter
 public class Vote {
 
+
     @Id
     @GeneratedValue
     private int id;

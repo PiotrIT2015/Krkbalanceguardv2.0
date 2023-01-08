@@ -37,6 +37,14 @@ public class PersonDao {
         return session;
     }
 
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
+    }
+
     @Bean
     public void getName(){
 
@@ -86,10 +94,6 @@ public class PersonDao {
             soundtracklist = sountracks2[i] + soundtracks[i+1];
         }
         return soundtracklist;
-    }
-
-    public String getPath() {
-        return path;
     }
 
 }

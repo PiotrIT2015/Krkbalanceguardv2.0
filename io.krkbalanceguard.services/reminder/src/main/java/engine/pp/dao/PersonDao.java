@@ -19,7 +19,7 @@ import org.springframework.transaction.annotation.Transactional;
 @Transactional
 public class PersonDao {
 
-    String items;
+    String items, path;
     @Autowired
     private SessionFactory factory;
 
@@ -38,6 +38,14 @@ public class PersonDao {
             session=factory.openSession();
         }
         return session;
+    }
+
+    public String getPath() {
+        return path;
+    }
+
+    public void setPath(String path) {
+        this.path = path;
     }
 
     @Bean
